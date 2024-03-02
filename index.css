@@ -96,7 +96,7 @@ a {
     margin-left: 0.5rem;
 }
 
-.collapse {
+.collapse1 {
     width: 100%;
 }
 
@@ -147,16 +147,16 @@ a {
     text-decoration: none;
     background-color: #fff;
     border: 1px solid rgba(222, 226, 230);
+    border-top: 0;
 }
 
 .list-group-item:first-child {
-    border-bottom: 0;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
 
 .list-group-item:last-child {
-
+    /* border-bottom: 1px; */
     border-bottom-left-radius: inherit;
     border-bottom-right-radius: inherit;
 }
@@ -212,6 +212,7 @@ a {
     }
     .list-group-item {
         border: 1px solid rgba(64, 66, 69, 0.5);
+        border-top: 0;
         background-color: rgb(30, 30, 30);
     }
 }
