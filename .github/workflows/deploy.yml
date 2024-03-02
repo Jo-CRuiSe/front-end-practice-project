@@ -1,0 +1,20 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # 触发自动部署的分支
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Build and Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: main  # 部署到的分支
+          folder: ./dist    # 构建输出的文件夹路径
