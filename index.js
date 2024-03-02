@@ -15,7 +15,7 @@ firstList.forEach(item => {
     listIcon.classList.add('fa', 'far', 'fa-file');
     listLink.classList.add('mx-2');
     listLink.target = '_blank';
-    listLink.href = '/'+ itemName; 
+    listLink.href = '/front-end-practice-project/'+ itemName; 
     listLink.innerText = item;
     itemList.append(listIcon, listLink);
     groupList1.appendChild(itemList);
