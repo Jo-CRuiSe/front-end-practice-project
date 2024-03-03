@@ -36,6 +36,15 @@ a {
     text-align: center;
 }
 
+.content {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
 .container {
     width: 50%;
     max-width: 600px;
@@ -161,6 +170,14 @@ a {
     border-bottom-right-radius: inherit;
 }
 
+footer {
+    position: relative;
+    bottom: 0;
+    margin: auto 0 0 0;
+    color: #333;
+    font-size: 12px;
+}
+
 @media (max-width: 1200px) {
     .container {
         width: 50%;
@@ -214,5 +231,8 @@ a {
         border: 1px solid rgba(64, 66, 69, 0.5);
         border-top: 0;
         background-color: rgb(30, 30, 30);
+    }
+    footer {
+        color: #a3a1a1;
     }
 }
