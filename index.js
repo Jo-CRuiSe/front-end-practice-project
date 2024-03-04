@@ -2,7 +2,8 @@ const firstList = [
     "Expanding Cards",
     "Progress Steps",
     "WeChat Mini App DEMO",
-    "Rotating Navigation"
+    "Rotating Navigation",
+    "Hidden Search Widget",
 ];
 const groupList1 = document.querySelector('.collapse1').querySelector('.list-group');
 
