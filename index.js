@@ -20,6 +20,14 @@ firstList.forEach(item => {
     listLink.innerText = item;
     itemList.append(listIcon, listLink);
     groupList1.appendChild(itemList);
-
-    
 })
+
+document.querySelectorAll('.collapse1').forEach(collapse => {
+    document.querySelectorAll('.catogry-trigger').forEach(trigger => {
+        trigger.addEventListener('click', (e) => {
+            collapse.classList.toggle('show');
+        })
+    })
+
+    // collapse.classList.toggle('show');
+});
