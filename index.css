@@ -352,7 +352,7 @@ footer {
     }
     .contact {
         background-color: rgba(61, 59, 63, 0.64);
-        box-shadow: rgba(5, 5, 5, 0.423) 0 0 5px 1px;
+        box-shadow: rgba(16, 16, 16, 0.423) 0 0 5px 1px;
         color: #d2d1d1;
     }
 
@@ -361,7 +361,9 @@ footer {
         .nav-bar {
             background: rgba(36, 36, 36, 0.8);
         }
-
+        .contact {
+            box-shadow: rgba(26, 26, 26, 0.423) 0 0 5px 1px;
+        }
         
     }
 
