@@ -60,6 +60,7 @@ a {
     margin: auto 20px;
     overflow: hidden;
     box-shadow: rgb(207, 207, 207) 0 0 5px 1px;
+    cursor: pointer;
 }
 
 .avatar img {
