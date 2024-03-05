@@ -289,14 +289,14 @@ footer {
         font-size: 2.7rem;
     }
     .before-nav {
-        -webkit-backdrop-filter: saturate(180%) blur(20px);
-        backdrop-filter:saturate(180%) blur(20px);
-        background: rgba(239, 239, 239, 0.8);
+        background: rgb(249, 249, 249);
     }
     .nav-bar {
         -webkit-backdrop-filter: saturate(180%) blur(20px);
         backdrop-filter:saturate(180%) blur(20px);
         background: rgba(239, 239, 239, 0.8);
+        left: 0;
+        right: 0;
     }
     .contacts-container {
         margin: auto 10px;
@@ -359,9 +359,7 @@ footer {
     }
 
     @media (max-width: 768px) {
-        .before-nav {
-             background: rgba(36, 36, 36, 0.8);
-        }
+
         .nav-bar {
             background: rgba(36, 36, 36, 0.8);
         }
