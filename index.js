@@ -31,3 +31,12 @@ document.querySelectorAll('.collapse1').forEach(collapse => {
 
     // collapse.classList.toggle('show');
 });
+
+window.addEventListener('scroll', () => {
+    const sticky = document.querySelector(".nav-bar").getBoundingClientRect().top + 20;
+    if(window.scrollY > sticky) {
+        document.querySelector(".nav-bar").classList.add("full");
+    } else {
+        document.querySelector(".nav-bar").classList.remove("full");
+    }
+});
