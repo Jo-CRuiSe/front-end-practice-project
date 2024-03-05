@@ -31,9 +31,14 @@ a {
     color: rgb(0, 86, 178);
 }
 
+.before-nav {
+    height: 1rem;
+    width: 100%;
+}
+
 .nav-bar {
     margin: auto;
-    margin-top: 4%;
+    margin-top: 0;
     display: flex;
     flex-direction: row;
     position: sticky;
@@ -283,6 +288,11 @@ footer {
     .title {
         font-size: 2.7rem;
     }
+    .before-nav {
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backdrop-filter:saturate(180%) blur(20px);
+        background: rgba(239, 239, 239, 0.8);
+    }
     .nav-bar {
         -webkit-backdrop-filter: saturate(180%) blur(20px);
         backdrop-filter:saturate(180%) blur(20px);
@@ -296,6 +306,9 @@ footer {
 @media (min-width: 768px) {
     .nav-bar {
         width: 48rem;
+    }
+    .before-nav {
+        height: 3rem;
     }
 }
 
@@ -346,7 +359,9 @@ footer {
     }
 
     @media (max-width: 768px) {
-
+        .before-nav {
+             background: rgba(36, 36, 36, 0.8);
+        }
         .nav-bar {
             background: rgba(36, 36, 36, 0.8);
         }
