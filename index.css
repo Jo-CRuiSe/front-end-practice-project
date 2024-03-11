@@ -172,6 +172,11 @@ a {
     background-color: var(--bs-card-cap-bg);
     border: var(--bs-card-border-width) solid rgba(222, 226, 230);
     border-bottom: none;
+    margin-top: 50px;
+}
+
+.card-header:first-child {
+    margin-top: 0;
 }
 
 .ms-2 {
@@ -183,13 +188,15 @@ a {
     margin-left: 0.5rem;
 }
 
-.collapse1 {
+.collapse1,
+.collapse2 {
     width: 100%;
     /* overflow: hidden; */
     transition: all 0.5s ease-in-out;
 }
 
-.collapse1:not(.show) {
+.collapse1:not(.show),
+.collapse2:not(.show) {
     /* display:none; */
     height: 0px;
     overflow: hidden;
