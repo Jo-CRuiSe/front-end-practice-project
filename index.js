@@ -5,6 +5,7 @@ const firstList = [
     "Hidden Search Widget",
     "Blurry Loading",
     "Scroll Animation",
+    "Split Landing Page",
 ];
 
 const secondList = [
