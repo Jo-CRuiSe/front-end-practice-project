@@ -29,6 +29,7 @@ body {
 a {
     text-decoration: none;
     color: rgb(0, 86, 178);
+    cursor: pointer;
 }
 
 .before-nav {

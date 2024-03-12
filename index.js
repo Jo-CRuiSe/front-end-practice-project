@@ -3,6 +3,8 @@ const firstList = [
     "Progress Steps",
     "Rotating Navigation",
     "Hidden Search Widget",
+    "Blurry Loading",
+    "Scroll Animation",
 ];
 
 const secondList = [
