@@ -6,6 +6,7 @@ const firstList = [
     "Blurry Loading",
     "Scroll Animation",
     "Split Landing Page",
+    "Form Wave",
 ];
 
 const secondList = [
