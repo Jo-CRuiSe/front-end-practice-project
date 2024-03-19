@@ -8,6 +8,7 @@ const firstList = [
     "Split Landing Page",
     "Form Wave",
     "Sound Board",
+    "Dad Jokes",
 ];
 
 const secondList = [
