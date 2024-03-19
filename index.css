@@ -51,7 +51,7 @@ a {
     width: 100vw;
     height: 60px;
     overflow: hidden;
-    transition: all .5s cubic-bezier(.4,0,0,1);
+    transition: all .6s cubic-bezier(.4,0,0,1);
 }
 
 .nav-bar.full {

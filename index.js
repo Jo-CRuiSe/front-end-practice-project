@@ -7,6 +7,7 @@ const firstList = [
     "Scroll Animation",
     "Split Landing Page",
     "Form Wave",
+    "Sound Board",
 ];
 
 const secondList = [
