@@ -300,8 +300,8 @@ footer {
 
     .nav-bar {
         -webkit-backdrop-filter: saturate(180%) blur(20px);
-        backdrop-filter:saturate(180%) blur(20px);
-        background: rgba(239, 239, 239, 0.8);
+        backdrop-filter: saturate(180%) blur(20px);
+        background: rgba(250, 250, 252, .8);
         left: 0;
         right: 0;
     }
