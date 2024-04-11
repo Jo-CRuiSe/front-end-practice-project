@@ -9,6 +9,7 @@ const firstList = [
     "Form Wave",
     "Sound Board",
     "Dad Jokes",
+    "Event Keycodes",
 ];
 
 const secondList = [
